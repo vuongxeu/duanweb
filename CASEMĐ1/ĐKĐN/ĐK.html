@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        body {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            background: url("https://media0.giphy.com/media/q84kJJiSv5rLQGgymi/200w.webp?cid=ecf05e475yeq9ashv5urkxj45gvrj4srel4e80d3uxb3rhbm&ep=v1_stickers_search&rid=200w.webp&ct=s") no-repeat;
+            background-size: 50%;
+            background-position: center;}
+        input{
+            width: 400px;height: 70px;border: 1px solid black;
+        }
+        #bt1{
+            width: 300px;height:45px;background-color: dodgerblue;color: honeydew;
+        }
+        #bt2{
+            background-color: dodgerblue;color: honeydew;
+        }
+        h1{
+            color: #ce014b;
+            font-family: Comic Sans MS
+        }
+        h{
+            color:  #ce014b;
+        }
+    </style>
+</head>
+<body>
+<div align="center">
+    <H1> ĐĂNG KÝ Ở ĐEy NHOA<img width="200px"height="300px" src="https://media4.giphy.com/media/HC0KVd2doSGIY7pBJX/giphy.webp?cid=ecf05e47sqfn42ljqxi015e3b4d5br0u3hxmn5mvk5owwurt&ep=v1_stickers_search&rid=giphy.webp&ct=s"> </H1>
+        <hr>
+       <input TYPE="text" PLACEHOLDER="👤 Tên tài khoản(không dấu nha)" id="username"><br><br>
+      <input TYPE="password" PLACEHOLDER="🔑 Mật khẩu(6-12 kí tự thoi)" id="password"><br><br>
+        <button id="bt1" onclick="register()">ĐĂNG KÝ</button>
+      <br>
+      <br>
+        <h>Bạn đã có tài khoản ?</h> <button id="bt2" onclick="location.href ='ĐN.html'">Đăng nhập</button>
+    <p id="z" style="color: red"></p>
+    <audio src="nhac2.mp3"controls autoplay loop hidden="hidden">
+    </audio>
+</div>
+</body>
+</html>
+<script src="user.js"></script>
+<script src="data.js"></script>
